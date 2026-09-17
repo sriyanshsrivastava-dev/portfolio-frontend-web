@@ -7,9 +7,10 @@ const GLASS_BASE =
     "bg-white/10 dark:bg-black/20 backdrop-blur-md border border-white/20 shadow-lg";
 
 const GLASS_HOVER =
-    "transition-all duration-300 hover:bg-white/20 dark:hover:bg-black/30 hover:border-white/40 hover:-translate-y-0.5 hover:shadow-xl cursor-pointer";
+    "transition-all duration-300 hover:bg-white/20 hover:text-bold dark:hover:bg-black/30 hover:border-white/40 hover:-translate-y-0.5 hover:shadow-xl cursor-pointer";
 
 export default function Navbar() {
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -18,10 +19,10 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="flex fixed top-4 h-16 w-full bg-transparent justify-between px-10 z-50">
+            <nav className="flex fixed top-4 h-16 w-full bg-transparent justify-between px-4 sm:px-6 md:px-16 z-50">
 
                 {/* Logo Container */}
-                <div className={`h-full flex items-center px-8 rounded-full ${GLASS_BASE}`}>
+                <div className={`h-full flex items-center px-8 rounded-full ${GLASS_BASE} ${GLASS_HOVER}`}>
                     <span className="text-2xl font-black">Portfolio.</span>
                 </div>
 
@@ -39,7 +40,7 @@ export default function Navbar() {
 
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex h-full">
-                    <ul className={`flex gap-5 items-center h-full px-10 rounded-full ${GLASS_BASE}`}>
+                    <ul className={`flex gap-8 items-center h-full px-10 rounded-full ${GLASS_BASE}`}>
                         <li>
                             <Link
                                 href="/"
