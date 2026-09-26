@@ -12,10 +12,10 @@ export default function Footer(){
                <div className="text-xl font-bold">Explore</div>
                <ul className="flex flex-col gap-1 text-md">
                    <li className="inline-block ">
-                       <Link href="/">Home</Link>
+                       <Link href="/#HeroSection">Home</Link>
                    </li>
                    <li>
-                       <Link href="/">About</Link>
+                       <Link href="/#AboutSection">About</Link>
                    </li>
                    <li>
                        <Link href="/">Project</Link>
