@@ -10,8 +10,8 @@ export default function HeroContent() {
                 <p className={"text-md md:text-2xl font-bold text-white"}>Hello, I am</p>
             </div>
             <div className={"flex flex-col gap-2 justify-center items-center md:items-start w-full"}>
-                <span className={'text-6xl md:text-8xl font-extrabold text-transparent bg-linear-to-r from-blue-200 to-blue-400 bg-clip-text pb-3'}>Sriyansh</span>
-                <span className={'text-6xl md:text-8xl font-extrabold text-transparent bg-linear-to-r from-blue-600 to-blue-300 bg-clip-text'}>Srivastava</span>
+                <span className={'text-6xl md:text-8xl font-extrabold text-transparent bg-linear-to-r from-blue-200 to-blue-400 bg-clip-text sm:pb-3 uppercase sm:capitalize'}>Sriyansh</span>
+                <span className={'text-6xl md:text-8xl font-extrabold text-transparent bg-linear-to-r from-blue-600 to-blue-300 bg-clip-text uppercase sm:capitalize'}>Srivastava</span>
             </div>
             <div className={'hidden md:flex gap-4 divide-x-4 divide-gray-200 justify-start items-center w-full'}>
                 <span className={titleClass}>Data Science Student </span>

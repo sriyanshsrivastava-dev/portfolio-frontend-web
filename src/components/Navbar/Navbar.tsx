@@ -43,7 +43,7 @@ export default function Navbar() {
                     <ul className={`flex gap-8 items-center h-full px-10 rounded-full ${GLASS_BASE}`}>
                         <li>
                             <Link
-                                href="/"
+                                href="/#HeroSection"
                                 className="text-xl inline-block transition-transform duration-200 hover:scale-110"
                             >
                                 Home
@@ -52,7 +52,7 @@ export default function Navbar() {
 
                         <li>
                             <Link
-                                href="/about"
+                                href="/#AboutSection"
                                 className="text-xl inline-block transition-transform duration-200 hover:scale-110"
                             >
                                 About
@@ -88,7 +88,7 @@ export default function Navbar() {
 
                         <li>
                             <Link
-                                href="/"
+                                href="/#HeroSection"
                                 onClick={toggleMenu}
                                 className="text-xl block py-2 px-4 hover:bg-white/10 dark:hover:bg-black/20 rounded-xl transition-colors"
                             >
@@ -98,7 +98,7 @@ export default function Navbar() {
 
                         <li>
                             <Link
-                                href="/about"
+                                href="/#AboutSection"
                                 onClick={toggleMenu}
                                 className="text-xl block py-2 px-4 hover:bg-white/10 dark:hover:bg-black/20 rounded-xl transition-colors"
                             >
